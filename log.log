@@ -1,0 +1,178 @@
+2019-11-30 12:15:20:115 [Appium] Welcome to Appium v1.15.1
+2019-11-30 12:15:20:117 [Appium] Non-default server args:
+2019-11-30 12:15:20:118 [Appium]   logFile: log.log
+2019-11-30 12:15:20:151 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-11-30 12:15:23:654 [HTTP] --> POST /wd/hub/session
+2019-11-30 12:15:23:654 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"Google Pixel","browserName":"Chrome"}]},"desiredCapabilities":{"platformName":"Android","deviceName":"Google Pixel","browserName":"Chrome"}}
+2019-11-30 12:15:23:657 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"Google Pixel","browserName":"Chrome"},null,{"firstMatch":[{"platformName":"Android","appium:deviceName":"Google Pixel","browserName":"Chrome"}]}]
+2019-11-30 12:15:23:657 [BaseDriver] Event 'newSessionRequested' logged at 1575116123657 (20:15:23 GMT+0800 (GMT+08:00))
+2019-11-30 12:15:23:665 [Appium] 
+2019-11-30 12:15:23:666 [Appium] ======================================================================
+2019-11-30 12:15:23:666 [Appium]   DEPRECATION WARNING:
+2019-11-30 12:15:23:666 [Appium] 
+2019-11-30 12:15:23:666 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-11-30 12:15:23:666 [Appium]   capabilities for this Android session
+2019-11-30 12:15:23:666 [Appium] 
+2019-11-30 12:15:23:666 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2019-11-30 12:15:23:667 [Appium]   UiAutomator2 Driver
+2019-11-30 12:15:23:667 [Appium] 
+2019-11-30 12:15:23:667 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-11-30 12:15:23:667 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-11-30 12:15:23:667 [Appium]   platforms
+2019-11-30 12:15:23:667 [Appium] 
+2019-11-30 12:15:23:667 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2019-11-30 12:15:23:668 [Appium]   'automationName=UiAutomator1'
+2019-11-30 12:15:23:668 [Appium] 
+2019-11-30 12:15:23:668 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2019-11-30 12:15:23:668 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2019-11-30 12:15:23:668 [Appium] 
+2019-11-30 12:15:23:668 [Appium]   For more information about drivers, please visit 
+2019-11-30 12:15:23:668 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-11-30 12:15:23:668 [Appium]   'Drivers' menu
+2019-11-30 12:15:23:669 [Appium] 
+2019-11-30 12:15:23:669 [Appium] ======================================================================
+2019-11-30 12:15:23:669 [Appium] 
+2019-11-30 12:15:23:887 [Appium] Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+2019-11-30 12:15:23:890 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2019-11-30 12:15:23:890 [BaseDriver] Creating session with W3C capabilities: {
+2019-11-30 12:15:23:890 [BaseDriver]   "alwaysMatch": {
+2019-11-30 12:15:23:890 [BaseDriver]     "platformName": "Android",
+2019-11-30 12:15:23:890 [BaseDriver]     "browserName": "Chrome",
+2019-11-30 12:15:23:890 [BaseDriver]     "appium:deviceName": "Google Pixel"
+2019-11-30 12:15:23:890 [BaseDriver]   },
+2019-11-30 12:15:23:890 [BaseDriver]   "firstMatch": [
+2019-11-30 12:15:23:891 [BaseDriver]     {}
+2019-11-30 12:15:23:891 [BaseDriver]   ]
+2019-11-30 12:15:23:891 [BaseDriver] }
+2019-11-30 12:15:23:898 [BaseDriver] Session created with session id: 2e7f841e-285a-4833-8a70-c8b85c489217
+2019-11-30 12:15:23:899 [UiAutomator2] We're going to run a Chrome-based session
+2019-11-30 12:15:23:899 [UiAutomator2] Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+2019-11-30 12:15:23:899 [UiAutomator2] Starting 'com.android.chrome' directly on the device
+2019-11-30 12:15:23:939 [ADB] Found 31 'build-tools' folders under '/Users/lukai/lukai_soft/android-sdk-macosx' (newest first):
+2019-11-30 12:15:23:939 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.2
+2019-11-30 12:15:23:939 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.1
+2019-11-30 12:15:23:939 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.0
+2019-11-30 12:15:23:940 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.3
+2019-11-30 12:15:23:940 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.2
+2019-11-30 12:15:23:940 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.1
+2019-11-30 12:15:23:940 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.0
+2019-11-30 12:15:23:940 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.3
+2019-11-30 12:15:23:940 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.2
+2019-11-30 12:15:23:940 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.1
+2019-11-30 12:15:23:940 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.0
+2019-11-30 12:15:23:940 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.3
+2019-11-30 12:15:23:941 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.2
+2019-11-30 12:15:23:941 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.1
+2019-11-30 12:15:23:941 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.0
+2019-11-30 12:15:23:941 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.0-preview
+2019-11-30 12:15:23:941 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.3
+2019-11-30 12:15:23:941 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.2
+2019-11-30 12:15:23:941 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.1
+2019-11-30 12:15:23:941 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.0
+2019-11-30 12:15:23:942 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.3
+2019-11-30 12:15:23:942 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.2
+2019-11-30 12:15:23:942 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.1
+2019-11-30 12:15:23:942 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.0
+2019-11-30 12:15:23:942 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/23.0.3
+2019-11-30 12:15:23:942 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/23.0.2
+2019-11-30 12:15:23:942 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/23.0.1
+2019-11-30 12:15:23:942 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/22.0.1
+2019-11-30 12:15:23:942 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/21.1.2
+2019-11-30 12:15:23:943 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/20.0.0
+2019-11-30 12:15:23:943 [ADB]     /Users/lukai/lukai_soft/android-sdk-macosx/build-tools/19.1.0
+2019-11-30 12:15:23:943 [ADB] Using 'adb' from '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb'
+2019-11-30 12:15:23:944 [AndroidDriver] Retrieving device list
+2019-11-30 12:15:23:944 [ADB] Trying to find a connected android device
+2019-11-30 12:15:23:944 [ADB] Getting connected devices...
+2019-11-30 12:15:23:954 [ADB] Connected devices: [{"udid":"TPG5T18328008458","state":"device"}]
+2019-11-30 12:15:23:955 [AndroidDriver] Using device: TPG5T18328008458
+2019-11-30 12:15:23:956 [ADB] Using 'adb' from '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb'
+2019-11-30 12:15:23:956 [ADB] Setting device id to TPG5T18328008458
+2019-11-30 12:15:23:957 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell getprop ro.build.version.sdk'
+2019-11-30 12:15:24:000 [ADB] Current device property 'ro.build.version.sdk': 28
+2019-11-30 12:15:24:000 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell getprop ro.build.version.release'
+2019-11-30 12:15:24:032 [ADB] Current device property 'ro.build.version.release': 9
+2019-11-30 12:15:24:032 [ADB] Device API level: 28
+2019-11-30 12:15:24:033 [UiAutomator2] Relaxing hidden api policy
+2019-11-30 12:15:24:033 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell settings put global hidden_api_policy_pre_p_apps 1'
+2019-11-30 12:15:24:105 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell settings put global hidden_api_policy_p_apps 1'
+2019-11-30 12:15:24:166 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell settings put global hidden_api_policy 1'
+2019-11-30 12:15:24:238 [AndroidDriver] No app sent in, not parsing package/activity
+2019-11-30 12:15:24:239 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 wait-for-device'
+2019-11-30 12:15:24:247 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell echo ping'
+2019-11-30 12:15:24:271 [AndroidDriver] Pushing settings apk to device...
+2019-11-30 12:15:24:272 [ADB] Getting install status for io.appium.settings
+2019-11-30 12:15:24:272 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell dumpsys package io.appium.settings'
+2019-11-30 12:15:24:332 [ADB] 'io.appium.settings' is installed
+2019-11-30 12:15:24:332 [ADB] Getting package info for 'io.appium.settings'
+2019-11-30 12:15:24:333 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell dumpsys package io.appium.settings'
+2019-11-30 12:15:24:391 [ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/emulator/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/tools/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/tools/bin/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.0-preview/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/23.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/23.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/23.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/22.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/21.1.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/20.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/19.1.0/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/lukai/lukai_soft/android-sdk-macosx'?
+2019-11-30 12:15:24:392 [ADB] Using 'aapt' from '/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.2/aapt'
+2019-11-30 12:15:24:402 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.2' >= '2.14.2')
+2019-11-30 12:15:24:402 [ADB] There is no need to install/upgrade '/Users/lukai/.nvm/versions/node/v10.16.3/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2019-11-30 12:15:24:403 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-11-30 12:15:24:403 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell 'pgrep --help; echo $?''
+2019-11-30 12:15:24:446 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell pgrep -f io\\.appium\\.settings'
+2019-11-30 12:15:24:564 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell am start -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER'
+2019-11-30 12:15:24:720 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-11-30 12:15:24:721 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell pgrep -f io\\.appium\\.settings'
+2019-11-30 12:15:25:120 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-11-30 12:15:25:121 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell pgrep -f io\\.appium\\.settings'
+2019-11-30 12:15:25:216 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell appops set io.appium.settings android\:mock_location allow'
+2019-11-30 12:15:25:287 [Logcat] Starting logcat capture
+2019-11-30 12:15:25:323 [ADB] Getting install status for io.appium.uiautomator2.server
+2019-11-30 12:15:25:323 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell dumpsys package io.appium.uiautomator2.server'
+2019-11-30 12:15:25:390 [ADB] 'io.appium.uiautomator2.server' is installed
+2019-11-30 12:15:25:391 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2019-11-30 12:15:25:391 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell dumpsys package io.appium.uiautomator2.server'
+2019-11-30 12:15:25:456 [ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/emulator/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/tools/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/tools/bin/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/28.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/27.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/26.0.0-preview/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/25.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/24.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/23.0.3/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/23.0.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/23.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/22.0.1/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/21.1.2/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/20.0.0/apkanalyzer","/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/19.1.0/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/lukai/lukai_soft/android-sdk-macosx'?
+2019-11-30 12:15:25:463 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.3.0' >= '4.3.0')
+2019-11-30 12:15:25:464 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2019-11-30 12:15:25:465 [ADB] Checking app cert for /Users/lukai/.nvm/versions/node/v10.16.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk
+2019-11-30 12:15:25:466 [ADB] Using 'apksigner' from '/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.2/apksigner'
+2019-11-30 12:15:25:467 [ADB] Starting '/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.2/apksigner' with args '["verify","--print-certs","/Users/lukai/.nvm/versions/node/v10.16.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk"]'
+2019-11-30 12:15:26:027 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-11-30 12:15:26:027 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-11-30 12:15:26:028 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-11-30 12:15:26:028 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-11-30 12:15:26:028 [ADB] 
+2019-11-30 12:15:26:028 [ADB] '/Users/lukai/.nvm/versions/node/v10.16.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk' is already signed.
+2019-11-30 12:15:26:029 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2019-11-30 12:15:26:029 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell dumpsys package io.appium.uiautomator2.server.test'
+2019-11-30 12:15:26:090 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2019-11-30 12:15:26:090 [ADB] Checking app cert for /Users/lukai/.nvm/versions/node/v10.16.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2019-11-30 12:15:26:090 [ADB] Starting '/Users/lukai/lukai_soft/android-sdk-macosx/build-tools/29.0.2/apksigner' with args '["verify","--print-certs","/Users/lukai/.nvm/versions/node/v10.16.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
+2019-11-30 12:15:26:506 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-11-30 12:15:26:506 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-11-30 12:15:26:506 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-11-30 12:15:26:506 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-11-30 12:15:26:506 [ADB] 
+2019-11-30 12:15:26:507 [ADB] '/Users/lukai/.nvm/versions/node/v10.16.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2019-11-30 12:15:26:507 [UiAutomator2] Server packages are not going to be (re)installed
+2019-11-30 12:15:26:509 [UiAutomator2] Waiting up to 30000ms for services to be available
+2019-11-30 12:15:26:510 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell pm list instrumentation'
+2019-11-30 12:15:26:592 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2019-11-30 12:15:26:592 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2019-11-30 12:15:26:592 [ADB] Forwarding system: 8200 to device: 6790
+2019-11-30 12:15:26:593 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 forward tcp\:8200 tcp\:6790'
+2019-11-30 12:15:26:601 [UiAutomator2] No app capability. Assuming it is already on the device
+2019-11-30 12:15:26:602 [ADB] Getting install status for com.android.chrome
+2019-11-30 12:15:26:602 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell dumpsys package com.android.chrome'
+2019-11-30 12:15:26:657 [ADB] 'com.android.chrome' is not installed
+2019-11-30 12:15:26:658 [UiAutomator2] Deleting UiAutomator2 session
+2019-11-30 12:15:26:659 [UiAutomator2] Deleting UiAutomator2 server session
+2019-11-30 12:15:26:660 [WD Proxy] Matched '/' to command name 'deleteSession'
+2019-11-30 12:15:26:663 [UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+2019-11-30 12:15:26:663 [Logcat] Stopping logcat capture
+2019-11-30 12:15:26:665 [ADB] Removing forwarded port socket connection: 8200 
+2019-11-30 12:15:26:666 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 forward --remove tcp\:8200'
+2019-11-30 12:15:26:674 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2019-11-30 12:15:26:675 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell settings delete global hidden_api_policy_pre_p_apps'
+2019-11-30 12:15:26:730 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell settings delete global hidden_api_policy_p_apps'
+2019-11-30 12:15:26:790 [ADB] Running '/Users/lukai/lukai_soft/android-sdk-macosx/platform-tools/adb -P 5037 -s TPG5T18328008458 shell settings delete global hidden_api_policy'
+2019-11-30 12:15:26:846 [BaseDriver] Event 'newSessionStarted' logged at 1575116126845 (20:15:26 GMT+0800 (GMT+08:00))
+2019-11-30 12:15:26:863 [W3C] Encountered internal error running command: Error: 'app' option is required for reinstall
+2019-11-30 12:15:26:864 [W3C]     at Object.resetApp (/Users/lukai/.nvm/versions/node/v10.16.3/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:378:11)
+2019-11-30 12:15:26:878 [HTTP] <-- POST /wd/hub/session 500 3222 ms - 633
+2019-11-30 12:15:26:878 [HTTP] 
+2019-11-30 12:15:30:141 [Appium] Received SIGINT - shutting down
