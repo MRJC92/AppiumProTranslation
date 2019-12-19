@@ -1,19 +1,15 @@
-import time
-
 from appium import webdriver
+import time 
 
 caps = {}
 caps['platformName'] = 'Android'
 caps['deviceName'] = 'Google Pixel'
 caps['automationName'] = 'UiAutomator2'
-caps['appPackage'] = 'com.videogo'
-caps['appActivity'] = 'com.videogo.main.MainTabActivity'
+caps['appPackage'] = 'com.android.gallery3d'
+caps['appActivity'] = 'com.android.gallery3d.app.GalleryActivity'
 
 driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
 
-time.sleep(10)
-
-
-
-
+result = driver.get_performance_data('com.android.gallery3d', 'cpuinfo', 5)
+print(result)
 

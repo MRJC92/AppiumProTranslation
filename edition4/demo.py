@@ -7,6 +7,8 @@ caps = {}
 caps['platformName'] = 'Android'
 caps['deviceName'] = 'Google Pixel'
 caps['browserName'] = 'Chrome'
+caps['chromedriverExecutable'] = '/Users/lukai/lukai_soft/chromedriver'
+caps['chromedriverUseSystemExecutable'] = True
 # caps['appPackage'] = 'com.android.browser'
 # caps['appActivity'] = 'com.uc.browser.InnerUCMobile'
 
