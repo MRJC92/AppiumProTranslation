@@ -108,3 +108,28 @@ public class Edition005_Android_Memory {
 ```
 
 我衷心建议您对应用程序进行一些自动化性能测试。即便是使用类似于上述这样简单的测试，我们都可以发现一些影响用户体验的问题，即便我们没有发现功能问题。请继续关注有关Appium在以后版本中进行的性能测试或其他类型测试的更多讨论。
+
+最后惯例补上python的代码:
+```python
+from appium import webdriver
+
+caps = {}
+caps['platformName'] = 'Android'
+caps['deviceName'] = 'Google Pixel'
+caps['automationName'] = 'UiAutomator2'
+caps['appPackage'] = 'com.android.gallery3d'
+caps['appActivity'] = 'com.android.gallery3d.app.GalleryActivity'
+
+driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
+
+result = driver.get_performance_data('com.android.gallery3d', 'memoryinfo', 5)
+print(result)
+```
+输出结果是:
+```python
+[
+    ['totalPrivateDirty', 'nativePrivateDirty', 'dalvikPrivateDirty', 'eglPrivateDirty', 'glPrivateDirty', 'totalPss', 'nativePss', 'dalvikPss', 'eglPss', 'glPss', 'nativeHeapAllocatedSize', 'nativeHeapSize'], 
+
+    ['9548', '5728', '1256', None, None, '19031', '5800', '1324', None, None, '16963', '19200']
+]
+```
