@@ -7,7 +7,7 @@
 ```java
 driver.getPerformanceData("<package>", "<perf type>", <timeout>);
 ```
-<package>是我们的被测app包.<perf type>表示的是我们想要获取的性能数据类型。我们可以通过[getSupportedPerformanceDataTypes](https://appium.io/docs/en/commands/device/performance-data/performance-data-types/)来获取有效的类型，目前有，`cpuinfo`, `memoryinfo`, 'batteryinfo' 和`networkinfo`。最后<timeout>表示如果Appium不能立即获取到性能数据，等待的时间，它是一个整数.
+`package`是我们的被测app包.`perf type`表示的是我们想要获取的性能数据类型。我们可以通过[getSupportedPerformanceDataTypes](https://appium.io/docs/en/commands/device/performance-data/performance-data-types/)来获取有效的类型，目前有，`cpuinfo`, `memoryinfo`, 'batteryinfo' 和`networkinfo`。最后<timeout>表示如果Appium不能立即获取到性能数据，等待的时间，它是一个整数.
 
 性能是一个很复杂的话题，我们不可能在一个章节中就能挖掘玩。所以我们就专注于一个简单的例子，内存使用量。许多app都会在使用的历程中遇到的问题是内存泄漏。尽管生活在垃圾收集的环境中，Android应用仍然会导致内存被锁定为无法使用的状态。所以在测试应用在长期使用中内存是否有无缘无故增长内存使用时十分重要的。
 
